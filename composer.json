@@ -19,5 +19,8 @@
   },
   "require": {
     "nikic/fast-route": "^1.3"
-  }
+  },
+  "post-install-cmd": [
+    "cp vendor/cascata/framework-patterns/src/Http/Kernel.php arquivo1.php"
+  ]
 }
