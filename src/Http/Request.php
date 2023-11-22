@@ -13,6 +13,7 @@ class Request
     ) {
     }
 
+    // change for version 1.1
     public static function createFromGlobals(): static
     {
         return new static($_GET, $_POST, $_COOKIE, $_FILES, $_SERVER);
